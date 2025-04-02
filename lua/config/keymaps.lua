@@ -1,9 +1,11 @@
-vim.keymap.set("n", "<Leader>..", "<cmd>Ex<cr>")
+local map = vim.keymap.set
+
+map("n", "<Leader>..", "<cmd>Ex<cr>")
 
 -- Telescope
-vim.keymap.set("n", "<Leader>ff", "<cmd>Telescope find_files<cr>")
-vim.keymap.set("n", "<Leader>fg", "<cmd>Telescope live_grep<cr>")
+map("n", "<Leader>ff", "<cmd>Telescope find_files<cr>")
+map("n", "<Leader>fg", "<cmd>Telescope live_grep<cr>")
 
 -- LSP
-vim.keymap.set("n", "<Leader>k", vim.lsp.buf.hover, {})
-vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
+map("n", "<Leader>k", vim.lsp.buf.hover, {})
+map("n", "gd", vim.lsp.buf.definition, {})
