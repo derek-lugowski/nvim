@@ -9,4 +9,5 @@ o.tabstop = 4
 o.shiftwidth = 4
 o.title = true
 o.showmatch = true -- show matching bracket when inserting a bracket
+o.colorcolumn = "100"
 
