@@ -3,7 +3,7 @@ return {
     event = "InsertEnter",
     dependencies = {
         "hrsh7th/cmp-buffer", -- source for text in buffer
-        "hrsh7th/cmp-path", -- source for file system paths
+        "hrsh7th/cmp-path",   -- source for file system paths
         {
             "L3MON4D3/LuaSnip",
             version = "v2.*",
@@ -26,7 +26,7 @@ return {
                     luasnip.lsp_expand(args.body)
                 end,
             },
-	    -- Need to update these mappings and move them to the mappings file
+            -- Need to update these mappings and move them to the mappings file
             mapping = cmp.mapping.preset.insert({
                 ["<C-d>"] = cmp.mapping.scroll_docs(-4),
                 ["<C-f>"] = cmp.mapping.scroll_docs(4),
