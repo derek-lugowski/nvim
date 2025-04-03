@@ -1,7 +1,7 @@
 local o = vim.opt
 
-o.scrolloff = 10        -- Keep 10 lines below and above cursor
-o.number = true         -- Turn on line numbers
+o.scrolloff = 10 -- Keep 10 lines below and above cursor
+o.number = true -- Turn on line numbers
 o.relativenumber = true -- Relative line numbers
 o.autoindent = true
 o.expandtab = true
